@@ -1,0 +1,6 @@
+---
+- name: Verify Control Node
+  hosts: localhost
+  tasks:
+    - name: Ping localhost
+      ping:
